@@ -1,0 +1,22 @@
+/* SCROLL */
+
+/* Navegadores */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #23232E;
+    border-radius: 10px;
+    border: 100px none #ffffff;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: none;
+    scrollbar-color: #eb0000 #ffffff;
+}
