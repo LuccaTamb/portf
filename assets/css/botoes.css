@@ -1,0 +1,59 @@
+/* BOTOES */
+.ulB {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ulB .liB {
+    list-style: none;
+    margin: 0 15px;
+}
+.ulB .liB .aB {
+    margin-top: auto;
+    margin-bottom: 2rem;
+
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+}
+
+/* e-mail */
+.emailButton {
+    background: red;
+}
+.emailButton:hover {
+    color: red;
+    box-shadow: 0 0 5px red;
+    text-shadow: 0 0 5px red;
+}
+
+/* Github */
+.githubButton {
+    background: gray;
+}
+.githubButton:hover {
+    color: gray;
+    box-shadow: 0 0 5px gray;
+    text-shadow: 0 0 5px gray;
+}
+
+/* LinkedIn */
+.linkedinButton {
+    background: blue;
+}
+.linkedinButton:hover {
+    color: blue;
+    box-shadow: 0 0 5px blue;
+    text-shadow: 0 0 5px blue;
+}
